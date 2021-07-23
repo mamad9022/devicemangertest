@@ -1,0 +1,102 @@
+﻿{
+  "Errors": [
+    {
+      "Code": -1,
+      "Message": "سرور قادر به برقرارب ارتباط با دستگاه نشد",
+      "Reason": "",
+      "EnError": "BS_SDK_ERROR_FROM_DEVICE_DRIVER",
+      "Category": "Driver errors"
+    },
+    {
+      "Code": -2,
+      "Message": "دستکاه قادر به خواندن ساعت نمی‌باشد",
+      "Reason": "",
+      "EnError": "BS_SDK_ERROR_FROM_DEVICE_DRIVER",
+      "Category": "Driver errors"
+    },
+    {
+      "Code": -3,
+      "Message": "دستگاه قادر به اسکن اثر انگشت  نمی‌باشد",
+      "Reason": "",
+      "EnError": "BS_SDK_ERROR_FROM_DEVICE_DRIVER",
+      "Category": "Driver errors"
+    },
+    {
+      "Code": -4,
+      "Message": "دستگاه قادر به اسکن کارت نمی‌باشد",
+      "Reason": "",
+      "EnError": "BS_SDK_ERROR_FROM_DEVICE_DRIVER",
+      "Category": "Driver errors"
+    },
+    {
+      "Code": -5,
+      "Message": "اسکن جهره با مشکل مواجه شده است",
+      "Reason": "",
+      "EnError": "BS_SDK_ERROR_FROM_DEVICE_DRIVER",
+      "Category": "Driver errors"
+    },
+    {
+      "Code": -6,
+      "Message": "دستگاه قادر به ارسال کاربر به سیستم نمی‌باشد",
+      "Reason": "",
+      "EnError": "BS_SDK_ERROR_FROM_DEVICE_DRIVER",
+      "Category": "Driver errors"
+    },
+    {
+      "Code": -7,
+      "Message": "دستگاه قادر به حذف تمامی  کاربران نمی‌باشد",
+      "Reason": "",
+      "EnError": "BS_SDK_ERROR_FROM_DEVICE_DRIVER",
+      "Category": "Driver errors"
+    },
+    {
+      "Code": -8,
+      "Message": "سرور قادر به برقرارب ارتباط با دستگاه نشد",
+      "Reason": "",
+      "EnError": "BS_SDK_ERROR_FROM_DEVICE_DRIVER",
+      "Category": "Driver errors"
+    },
+    {
+      "Code": -9,
+      "Message": "این ویژگی برای این دستگاه پشنیبانی نمی شود",
+      "Reason": "",
+      "EnError": "BS_SDK_ERROR_FROM_DEVICE_DRIVER",
+      "Category": "Driver errors"
+    },
+    {
+      "Code": -10,
+      "Message": "دستگاه را یک بار ری استارت کنید",
+      "Reason": "",
+      "EnError": "BS_SDK_ERROR_FROM_DEVICE_DRIVER",
+      "Category": "Driver errors"
+    },
+    {
+      "Code": -11,
+      "Message": "سیستم قادر به پیدا کردن مشکل نشد",
+      "Reason": "",
+      "EnError": "BS_SDK_ERROR_FROM_DEVICE_DRIVER",
+      "Category": "Driver errors"
+    },
+    {
+      "Code": -1,
+      "Message": "سرور قادر به برقرارب ارتباط با دستگاه نشد",
+      "Reason": "",
+      "EnError": "BS_SDK_ERROR_FROM_DEVICE_DRIVER",
+      "Category": "Driver errors"
+    },
+    {
+      "Code": -1,
+      "Message": "سرور قادر به برقرارب ارتباط با دستگاه نشد",
+      "Reason": "",
+      "EnError": "BS_SDK_ERROR_FROM_DEVICE_DRIVER",
+      "Category": "Driver errors"
+    },
+    {
+      "Code": -1,
+      "Message": "سرور قادر به برقرارب ارتباط با دستگاه نشد",
+      "Reason": "",
+      "EnError": "BS_SDK_ERROR_FROM_DEVICE_DRIVER",
+      "Category": "Driver errors"
+    }
+  ]
+}

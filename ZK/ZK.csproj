@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DeviceManagerTest.Common\DeviceManagerTest.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Interop.zkemkeeper">
+      <HintPath>D:\learn\Zk_PW_Sample\Zk_PW_Sample\ZK_SAMPLE\uFace_iFace_Sample Demo_SDK_1398_09_04\uFace_iFace_Sample Demo_SDK_1398_09_04\AttLogs\obj\x86\Debug\Interop.zkemkeeper.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Business\Door\" />
+  </ItemGroup>
+
+</Project>

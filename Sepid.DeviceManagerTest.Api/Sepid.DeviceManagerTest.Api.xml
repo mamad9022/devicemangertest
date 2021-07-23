@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sepid.DeviceManagerTest.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DeviceConfigController.GetTime(System.Int32)">
+            <summary>
+            Get Time Device
+            </summary>
+            <param name="deviceId"></param>
+            <response code="200">if List Back Successfully </response>
+            <response code="400">if device Can not connect   </response>
+            <response code="404">if Device Not Found  </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DeviceConfigController.SetTime(Sepid.DeviceManagerTest.Application.Core.DeviceConfigs.Command.SetTimeCommand.SetTimeCommand)">
+            <summary>
+            Set Device Time Device
+            </summary>
+            <param name="setTimeCommand"></param>
+            <response code="200">if List Back Successfully </response>
+            <response code="400">if device Can not connect   </response>
+            <response code="404">if Device Not Found  </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DeviceConfigController.ClearLog(System.Int32)">
+            <summary>
+            To Clear all Log from Device
+            </summary>
+            <param name="deviceId"></param>
+            <response code="204">if log successfully Delete from device </response>
+            <response code="404">if Device Not Found  </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DeviceConfigController.BroadCastDevice">
+            <summary>
+            Broad Cast In Network To Find All device Available
+            </summary>
+            <response code="200">if Device Found Successfully </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DeviceConfigController.SearchDevice(Sepid.DeviceManagerTest.Application.Core.DeviceConfigs.Command.SearchDeviceCommand.SearchDeviceCommand)">
+            <summary>
+            Search Device In Network By Ip
+            </summary>
+            <param name="searchDeviceCommand"></param>
+            <response code="200">if Device Found Successfully </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DeviceConfigController.RebootDevice(System.Int32)">
+            <summary>
+            in Case you Want to reset your device
+            </summary>
+            <param name="deviceId"></param>
+            <response code="204">if device reboot successfully</response>
+            <response code="400">if can not connect to device or operation complete </response>
+            <response code="404">if device not found </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DeviceConfigController.FactoryReset(System.Int32)">
+            <summary>
+            in Case you Want to reset to default setting
+            </summary>
+            <param name="deviceId"></param>
+            <response code="204">if device reset factory successfully</response>
+            <response code="400">if can not connect to device or operation complete </response>
+            <response code="404">if device not found </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DeviceConfigController.LockDevice(System.Int32)">
+            <summary>
+            in Case you Want to Lock Device an no one can authorize from device
+            </summary>
+            <param name="deviceId"></param>
+            <response code="204">if device lock successfully</response>
+            <response code="400">if can not connect to device or operation complete </response>
+            <response code="404">if device not found </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DeviceConfigController.GetNetworkConfig(System.Int32)">
+            <summary>
+            get network config of device
+            </summary>
+            <param name="deviceId"></param>
+            <response code="200">if device reboot successfully</response>
+            <response code="400">if can not connect to device or operation complete </response>
+            <response code="404">if device not found </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DeviceConfigController.SetNetWorkConfig(Sepid.DeviceManagerTest.Application.Core.DeviceConfigs.Command.SetNetworkCommand.SetNetWorkCommand)">
+            <summary>
+            set network Command
+            </summary>
+            <param name="setNetWorkCommand"></param>
+            <response code="200">if device reboot successfully</response>
+            <response code="400">if can not connect to device or operation complete </response>
+            <response code="404">if device not found </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DeviceModelController.Get(Sepid.DeviceManagerTest.Application.Core.DeviceModels.Queries.GetDeviceModelPagedListQuery)">
+            <summary>
+            Get Device Model With Pagination
+            </summary>
+            <param name="getDeviceModelPagedListQuery"></param>
+            <response code="200">if List Back Successfully </response>
+            <response code="400">if paging option out of range  </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DeviceModelController.Get">
+            <summary>
+            Get Device Model With NoPagination
+            </summary>
+            <response code="200">if List Back Successfully </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DeviceModelController.GetDeviceModelInfo(System.Int32)">
+            <summary>
+            Get Device Model info
+            </summary>
+            <response code="200">if List Back Successfully </response>
+            <response code="404">if device model  not found </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DeviceModelController.Delete(System.Int32)">
+            <summary>
+            Delete Device Model
+            </summary>
+            <response code="204">if Device model Delete Successfully </response>
+            <response code="404">if device model  not found </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DeviceModelController.Create(Sepid.DeviceManagerTest.Application.Core.DeviceModels.Command.Create.CreateDeviceModelCommand)">
+            <summary>
+            create Device Model
+            </summary>
+            <response code="201">if Device model Create Successfully </response>
+            <response code="400">if Validation Failed </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DeviceModelController.Update(Sepid.DeviceManagerTest.Application.Core.DeviceModels.Command.Update.UpdateDeviceModelCommand)">
+            <summary>
+            update Device Model
+            </summary>
+            <response code="204">if Device update Successfully </response>
+            <response code="404">if device model  not found </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DeviceScanController.ScanFinger(System.Int32)">
+            <summary>
+            Scan Finger
+            </summary>
+            <param name="deviceId"></param>
+            <response code="200">if Scan Finger Successfully </response>
+            <response code="400">if device Can not connect   </response>
+            <response code="404">if Device Not Found  </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DeviceScanController.ScanCard(System.Int32)">
+            <summary>
+            Scan card
+            </summary>
+            <param name="deviceId"></param>
+            <response code="200">if Scan card Successfully </response>
+            <response code="400">if device Can not connect   </response>
+            <response code="404">if Device Not Found  </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DeviceScanController.ScanFace(System.Int32)">
+            <summary>
+            Scan Face
+            </summary>
+            <param name="deviceId"></param>
+            <response code="200">if Scan face Successfully </response>
+            <response code="400">if device Can not connect   </response>
+            <response code="404">if Device Not Found  </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DevicesController.GetDevicePagedList(Sepid.DeviceManagerTest.Application.Core.Devices.Queries.GetDevicePagedListQuery,System.Threading.CancellationToken)">
+            <summary>
+            Get List Of Device with Pagination
+            </summary>
+            <param name="getDevicePagedList"></param>
+            <param name="cancellationToken"></param>
+            <response code="200">if List Back Successfully </response>
+            <response code="400">if paging option out of range  </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DevicesController.GetList">
+            <summary>
+            Get List Of Device with no Pagination
+            </summary>
+            <response code="200">if List Back Successfully </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DevicesController.GetDeviceInfo(System.Int32)">
+            <summary>
+            Get DeviceInfo
+            </summary>
+            <param name="id"></param>
+            <response code="200">if List Back Successfully </response>
+            <response code="404">if device not found </response>
+            <response code="400">if paging option out of range  </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DevicesController.Delete(System.Int32)">
+            <summary>
+            Delete Device Info
+            </summary>
+            <param name="id"></param>
+            <response code="204">if List Back Successfully </response>
+            <response code="404">if device not found </response>
+            <response code="400">if paging option out of range  </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DevicesController.Create(Sepid.DeviceManagerTest.Application.Core.Devices.Command.Create.CreateDeviceCommand)">
+            <summary>
+            Create Device Info
+            </summary>
+            <param name="createDeviceCommand"></param>
+            <response code="201">if User Create Successfully </response>
+            <response code="404">if device not found </response>
+            <response code="400">if Validation Failed </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DevicesController.Update(Sepid.DeviceManagerTest.Application.Core.Devices.Command.Update.UpdateDeviceCommand)">
+            <summary>
+            update  Device Info
+            </summary>
+            <param name="updateDeviceCommand"></param>
+            <response code="204">if User Update Successfully </response>
+            <response code="404">if device not found </response>
+            <response code="400">if Validation Failed </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DevicesController.DeleteAllUserFromDevice(System.Int32)">
+            <summary>
+            Delete All User exist In Device
+            </summary>
+            <param name="id"></param>
+            <response code="204">if Delete User from Successfully </response>
+            <response code="404">if device not found </response>
+            <response code="400">if Validation Failed Happen</response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DevicesController.DeleteUser(Sepid.DeviceManagerTest.Application.Core.User.Command.DeleteUser.DeleteUserCommand)">
+            <summary>
+            Delete User From Device with person code
+            </summary>
+            <param name="deleteUserCommand"></param>
+            <response code="204">if Delete User  Successfully </response>
+            <response code="400">if Validation Failed Happen</response>
+            <response code="404">if device not found </response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DevicesController.EnrollUser(Sepid.DeviceManagerTest.Application.Core.User.Command.EnrollUser.EnrollUserCommand)">
+            <summary>
+            Enroll User To Device
+            </summary>
+            <param name="enrollUserCommand"></param>
+            <response code="204">if Enroll User  Successfully </response>
+            <response code="404">if device not found </response>
+            <response code="400">if Validation Failed Happen</response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.DevicesController.GetAllUser(System.Int32)">
+            <summary>
+            Get  List All User From Device
+            </summary>
+            <param name="deviceId"></param>
+            <response code="204">if Enroll User  Successfully </response>
+            <response code="404">if device not found </response>
+            <response code="400">if Validation Failed Happen</response>
+            <response code="500">If an unexpected error happen</response>
+        </member>
+        <member name="M:Sepid.DeviceManagerTest.Api.Controllers.FilesController.Create(Sepid.DeviceManagerTest.Application.Core.Files.Command.CreateFileCommand)">
+             <summary>
+             uploading files
+             </summary>
+             <remarks>
+            
+             Types can be one of this: Avatar, Image, Video, Music, Document, Other
+             count validate with [X-MultiSelect] Header can between 1 to 20
+            
+             </remarks>
+             <param name="createFileCommand"></param>
+             <returns></returns>
+             <response code="200">Get Files list Uploaded</response>
+             <response code="400">If validation failure.</response>
+        </member>
+    </members>
+</doc>

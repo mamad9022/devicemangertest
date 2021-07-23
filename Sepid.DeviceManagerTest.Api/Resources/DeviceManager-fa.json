@@ -1,0 +1,372 @@
+﻿{
+  "Data": [
+    {
+      "Key": "DeviceNotFound",
+      "Template": "دستگاه مورد نظر پیدا نشد"
+    },
+    {
+      "Key": "NameIsRequired",
+      "Template": "وارد کردن نام الزامی می‌باشد"
+    },
+    {
+      "Key": "IpIsRequired",
+      "Template": "وارد کردن آی پی الزامی می‌باشد"
+    },
+    {
+      "Key": "SerialIsRequired",
+      "Template": "وارد کردن سریال دستگاه الزامی می‌باشد"
+    },
+    {
+      "Key": "PortIsRequired",
+      "Template": "وارد کردن پورت دستگاه الزامی می‌باشد"
+    },
+    {
+      "Key": "DuplicateSerialNumber",
+      "Template": "شماره سریال برای دستگاه دیگری ثبت شده است"
+    },
+    {
+      "Key": "IpIsDuplicate",
+      "Template": "آی پی از قبل برای دسنگاه دیگری تعریف شده است"
+    },
+    {
+      "Key": "InValidTimeFormat",
+      "Template": "فرمت ساعت وارد شده مورد قبول نمی‌باشد"
+    },
+    {
+      "Key": "SyncLogDateIsRequired",
+      "Template": "وارد کردن تاریخ شروع تخلیه الزامی می‌باشد"
+    },
+    {
+      "Key": "SyncLogPeriodIsRequired",
+      "Template": "وارد کردن تایم زمانی تخلیه برای دستگاه الزامی می‌باشد"
+    },
+    {
+      "Key": "DeviceModelNotFound",
+      "Template": "مدل دستگاه مورد نظر یافت نشد"
+    },
+    {
+      "Key": "UpdateFailed",
+      "Template": "خطا در ویرایش"
+    },
+    {
+      "Key": "DeviceModelIsRequired",
+      "Template": "وارد کردن مدل دستگاه الزامی می‌باشد"
+    },
+    {
+      "Key": "SdkTypeIsRequired",
+      "Template": "وارد کردن نوع sdk الزامی می‌باشد"
+    },
+    {
+      "Key": "CodeIsRequired",
+      "Template": "وارد کردن کد الزامی می‌باشد"
+    },
+    {
+      "Key": "IdIsRequired",
+      "Template": "وارد کردن ای دی الزامی می‌باشد"
+    },
+    {
+      "Key": "DeviceCanNotConnect",
+      "Template": "برنامه قادر به برقراری ارتباط با دستگاه نمی‌باشد"
+    },
+    {
+      "Key": "CanNotReadTheTime",
+      "Template": "دستکاه قادر به خواندن ساعت نمی‌باشد"
+    },
+    {
+      "Key": "CanNotScanFinger",
+      "Template": "دستگاه قادر به اسکن اثر انگشت  نمی‌باشد"
+    },
+    {
+      "Key": "InitializedSdkFailed",
+      "Template": "مقدار دهی اولیه sdk با مشکل روبه رو شده است"
+    },
+    {
+      "Key": "DateIsRequired",
+      "Template": "تاریخی برای تنظیم زمان ارسال نشده است"
+    },
+    {
+      "Key": "DeviceNotSupportFinger",
+      "Template": "این دستگاه اثر انگشت را پشتیبانی نمی کند"
+    },
+    {
+      "Key": "DeviceCanNotScanCard",
+      "Template": "دستگاه قادر به اسکن کارت نمی‌باشد"
+    },
+    {
+      "Key": "CanNotGetLogFromDevice",
+      "Template": "دستگاه قادر به ارسال لاگ به سیستم نمی‌باشد"
+    },
+    {
+      "Key": "ClearLogHasError",
+      "Template": "دستگاه قادر به حذف لاگ از دستگاه نمی‌باشد"
+    },
+    {
+      "Key": "DeleteAllUserFailed",
+      "Template": "دستگاه قادر به حذف تمامی  کاربران نمی‌باشد"
+    },
+    {
+      "Key": "BroadCastSearchFailed",
+      "Template": "جستجو در شبکه با مشکل مواجه شده است ارتباط شبکه ای را بررسی نمائید"
+    },
+    {
+      "Key": "CanNotGetFaceConfig",
+      "Template": "سیستم قادر به گرفتن تنظیمات اسکن چهره از دستگاه نمی‌باشد"
+    },
+    {
+      "Key": "CanNotScanFace",
+      "Template": "اسکن جهره با مشکل مواجه شده است"
+    },
+    {
+      "Key": "DeleteUserFromDeviceFailed",
+      "Template": "عملیات پاک کردن کاربر با خطا روبرو شده است"
+    },
+    {
+      "Key": "CanNotEnrollUser",
+      "Template": "کاربر به دستگاه منتفل نشد"
+    },
+    {
+      "Key": "CanNotGetUserFromDevice",
+      "Template": "دستگاه قادر به ارسال کاربر به سیستم نمی‌باشد"
+    },
+    {
+      "Key": "UnHandleError",
+      "Template": "خطای ناشناخته سمت دستگاه لطفا به ادمین گزارش دهید"
+    },
+    {
+      "Key": "NotSupportedByDevice",
+      "Template": "این ویژگی برای این دستگاه پشنیبانی نمی شود"
+    },
+    {
+      "Key": "CanNotRebootDevice",
+      "Template": "برنامه قادر به ریست کرن دستگاه نمی‌باشد"
+    },
+    {
+      "Key": "CanNotLockDevice",
+      "Template": "برنامه قادر به لاک کردن دستگاه نمی‌باشد"
+    },
+    {
+      "Key": "CanNotUnlockDevice",
+      "Template": "برنامه قادر به انلاک کردن دستگاه نمی‌باشد"
+    },
+    {
+      "Key": "CanNotSendInfoToSystem",
+      "Template": "دستگاه قادر به ارسال اطلاعات به سیستم نمی‌باشد"
+    },
+    {
+      "Key": "CanNotSetIpAddress",
+      "Template": "سیستم قادر به تنظیم کردن آی پی نمی‌باشد"
+    },
+    {
+      "Key": "SetIpConfigFailed",
+      "Template": "سیستم قادر به تنظیم کردن آی پی بر روی دستگاه نشد"
+    },
+    {
+      "Key": "InvalidIpAddress",
+      "Template": "فرمت آی پی وارد شده مورد قبول نمی‌باشد"
+    },
+    {
+      "Key": "InvalidSubnetMask",
+      "Template": "فرمت سابنت وارد شده مورد قبول نمی‌باشد"
+    },
+    {
+      "Key": "InvalidGateway",
+      "Template": "فرمت gateway  مورد قبول نمی‌باشد"
+    },
+    {
+      "Key": "InvalidServerIpAddress",
+      "Template": "فرمت آدرس سرور وارد شده مورد قبول نمی‌باشد"
+    },
+    {
+      "Key": "CanNotGetDoorInfo",
+      "Template": "دستگاه قادر به ارسال اطلاعات در به سیستم نمی‌باشد"
+    },
+    {
+      "Key": "CannotSetDoorConfig",
+      "Template": "سیستم قادر به تنظیم کردن در برای دستگاه نمی‌باشد"
+    },
+    {
+      "Key": "CannotDeleteDoor",
+      "Template": "عملیات حدف در از دستگاه انجام نشد"
+    },
+    {
+      "Key": "CanNotRemoveAccessGroup",
+      "Template": "دستگاه قادر به حذف دسترسی‌ها نمی‌باشد"
+    },
+    {
+      "Key": "CanNotSetAccessGroup",
+      "Template": "سیستم قادر به ست کردن سطح گروپ دسترسی برای دستگاه نمی‌باشد"
+    },
+    {
+      "Key": "CanNotSetAccessLevel",
+      "Template": "سیستم قادر به تنظیم سطح دسترسی برای دستگاه نمی‌باشد"
+    },
+    {
+      "Key": "CannotSetSchedule",
+      "Template": "سیستم قادر به تنظیم کردن زمان بندی بر روی دستگاه نمی‌باشد"
+    },
+    {
+      "Key": "CanNotRemoveHolidayGroup",
+      "Template": "سیستم قادر به حذف تعطیلات از دستگاه نمی‌باشد"
+    },
+    {
+      "Key": "CannotSetHolidayGroup",
+      "Template": "سیستم قادر به تنظیم کردن تعطیلات گروهی نمی‌باشد"
+    },
+    {
+      "Key": "IpAllocatedInNetwork",
+      "Template": "دستگاهی دیگر در شبکه این آی پی را استفاده کرده است"
+    },
+    {
+      "Key": "DeviceHasNotPing",
+      "Template": "ارتباط پینگ با دستگاه برقرار نمی‌باشد"
+    },
+    {
+      "Key": "TelnetPortIsClosed",
+      "Template": "تلنت بر روی دستگاه قطع می‌باشد"
+    },
+    {
+      "Key": "PortBlockedOrUsedByaAnotherProgram",
+      "Template": "دستگاه به سرویس دیگری متصل است یا برنامه دیگری از این پورت استفاده می‌کند"
+    },
+    {
+      "Key": "ServerPortIsUser",
+      "Template": "در صورت استفاده از کانکشن دستگاه به سرور، پورت سرور را تغیر دهید"
+    },
+    {
+      "Key": "CannotFindReason",
+      "Template": "سیستم قادر به تشخیص مشکل نشد"
+    },
+    {
+      "Key": "DeviceSuccessfullyConnected",
+      "Template": "دستگاه با موفقیت وصل شد"
+    },
+    {
+      "Key": "RestartDeviceManually",
+      "Template": "لطفا دستگاه را یک بار خاموش و روشن کنید"
+    },
+    {
+      "Key": "CanNotActiveImageLog",
+      "Template": "دستگاه قادر به اکتیو کردن عکس نمی‌باشد"
+    },
+    {
+      "Key": "CanNotGetAuthConfig",
+      "Template": "دستگاه قادر به ارسال اطلاعات تنظیمات امنیتی نمی‌باشد"
+    },
+    {
+      "Key": "ConnectionLost",
+      "Template": "ارتباط دستگاه با سیستم قطع می‌باشد"
+    },
+    {
+      "Key": "SetAuthConfigFailed",
+      "Template": "دستگاه قادر به تنظیم کردن تنظیمات امنیتی نمی‌باشد"
+    },
+    {
+      "Key": "AuthTimeOutIsRequired",
+      "Template": "وارد کردن اتمام زمان تأیید اعتبار الزامی می‌باشد"
+    },
+    {
+      "Key": "MathTimeOutIsRequired",
+      "Template": "وارد کردن حداکثر زمان اتمام مقایسه الزامی می‌باشد"
+    },
+    {
+      "Key": "AuthTimeOutGreaterThanTenSecond",
+      "Template": "حداکثر زمان تایید اعتبار باید بزرگتر از 10 ثانیه باشد"
+    },
+    {
+      "Key": "MatchTimeOutGreaterThanFiveSecond",
+      "Template": "حداکثر زمان تایم اعتبار باید بزرگتر از 5 ثانیه باشد"
+    },
+    {
+      "Key": "AuthConfigIsRequired",
+      "Template": "انتخاب سنجه هویتی الزامی می‌باشد"
+    },
+    {
+      "Key": "NotValidAuthConfigType",
+      "Template": "سنجه هویتی مورد نظر یافت نشد"
+    },
+    {
+      "Key": "UpgradeFirmwareVersion",
+      "Template": "لطفا فریم‌ور دستگاه را برای استفاده از این ویژگی اپدیت کنید"
+    },
+    {
+      "Key": "StartDataIsRequired",
+      "Template": "تاریخ شروع الزامی می‌باشد"
+    },
+    {
+      "Key": "EndDateIsRequired",
+      "Template": "تاریخ پایان الزامی می‌باشد"
+    },
+    {
+      "Key": "GroupNotFound",
+      "Template": "گروه مورد نظر پیدا نشد"
+    },
+    {
+      "Key": "NameAlreadyExist",
+      "Template": "این نام از قبل در سیستم موجود می‌باشد"
+    },
+    {
+      "Key": "RetryNumberRequired",
+      "Template": "تعیین تعداد تلاش الزامی می‌باشد"
+    },
+    {
+      "Key": "RetryNumberMustGreteaherThanOne",
+      "Template": "تعداد تلاش باید از یک دفعه بیشتر باشد"
+    },
+    {
+      "Key": "FingerPrintQualityRequired",
+      "Template": "وارد کردن میزان سختی اثر انگشت الزامی می‌باشد"
+    },
+    {
+      "Key": "FingerPrintQualityRang",
+      "Template": "میزان سختی اثر انگشت باید بین 10 تا 100 باشد"
+    },
+    {
+      "Key": "EntranceModeIsRequired",
+      "Template": "وارد کردن نوع ورود و خروج الزامی می‌باشد"
+    },
+    {
+      "Key": "MatchOnServerSupportV2",
+      "Template": "قابلیت شناسایی در سرور برای دستگاه ورژن 2 پشتیبانی می شود"
+    },
+    {
+      "Key": "LicenseNotFound",
+      "Template": "لایسنس برای سیستم پیدا نشد"
+    },
+    {
+      "Key": "LicenseExpired",
+      "Template": "لایسنس منقضی شده است"
+    },
+    {
+      "Key": "LicenseNotValidForDevice",
+      "Template": "لاینس برای دستگاه مورد نظر مورد قبول نمی باشد"
+    },
+    {
+      "Key": "LicenseNotValidForDevice",
+      "Template": "تعداد دستگاه به حداکثر ظرفیت مورد برای لایسنس رسیده است"
+    },
+    {
+      "Key": "InvalidLicense",
+      "Template": "لایسنس وارد شده معتبر نمی باشد"
+    },
+    {
+      "Key": "LicenseIsRequired",
+      "Template": "وارد کردن لایسنس الزامی می باشد"
+    },
+    {
+      "Key": "RichVitalDevice",
+      "Template": "شما به حداکثر تعداد دستگاه تخلیه با اولیوت رسیدید"
+    },
+    {
+      "Key": "MinimumVitalDevice",
+      "Template": "حداقل تعداد دستگاه با اولویت تخلیه 1 عدد می باشد"
+    },
+    {
+      "Key": "MaximumVitalDevice",
+      "Template": "حداکثر تعداد دستگاه با اولویت تخلیه 40 عدد می باشد"
+    },
+    {
+      "Key": "DeviceCountGreaterThanLicenseRegister",
+      "Template": "بالاتر از لایسنس می باشد "
+    }
+  ]
+}

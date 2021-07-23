@@ -1,0 +1,329 @@
+﻿{
+  "Data": [
+    {
+      "Key": "DeviceNotFound",
+      "Template": "device not found"
+    },
+    {
+      "Key": "NameIsRequired",
+      "Template": "name is required"
+    },
+    {
+      "Key": "IpIsRequired",
+      "Template": "ip is required"
+    },
+    {
+      "Key": "SerialIsRequired",
+      "Template": "device serial is required"
+    },
+    {
+      "Key": "PortIsRequired",
+      "Template": "port is required"
+    },
+    {
+      "Key": "DuplicateSerialNumber",
+      "Template": "serial number already exist in the system"
+    },
+    {
+      "Key": "IpIsDuplicate",
+      "Template": "ip is duplicate"
+    },
+    {
+      "Key": "InValidTimeFormat",
+      "Template": "invalid time format"
+    },
+    {
+      "Key": "SyncLogDateIsRequired",
+      "Template": "sync log date is required "
+    },
+    {
+      "Key": "SyncLogPeriodIsRequired",
+      "Template": "sync log period is required"
+    },
+    {
+      "Key": "DeviceModelNotFound",
+      "Template": "device model not found"
+    },
+    {
+      "Key": "UpdateFailed",
+      "Template": "update failed"
+    },
+    {
+      "Key": "DeviceModelIsRequired",
+      "Template": "device model is required"
+    },
+    {
+      "Key": "SdkTypeIsRequired",
+      "Template": "sdk type is required"
+    },
+    {
+      "Key": "CodeIsRequired",
+      "Template": "code is required"
+    },
+    {
+      "Key": "IdIsRequired",
+      "Template": "id is required"
+    },
+    {
+      "Key": "DeviceCanNotConnect",
+      "Template": " device can not connect"
+    },
+    {
+      "Key": "CanNotReadTheTime",
+      "Template": "server can not read time from device"
+    },
+    {
+      "Key": "CanNotScanFinger",
+      "Template": "can not scan finger"
+    },
+    {
+      "Key": "InitializedSdkFailed",
+      "Template": " initial sdk failed"
+    },
+    {
+      "Key": "DateIsRequired",
+      "Template": "date time is required"
+    },
+    {
+      "Key": "DeviceNotSupportFinger",
+      "Template": "device not supported finger print"
+    },
+    {
+      "Key": "DeviceCanNotScanCard",
+      "Template": "device can not scan card"
+    },
+    {
+      "Key": "CanNotGetLogFromDevice",
+      "Template": "can not get log from device"
+    },
+    {
+      "Key": "ClearLogHasError",
+      "Template": "clear log has error"
+    },
+    {
+      "Key": "DeleteAllUserFailed",
+      "Template": "delete all user failed"
+    },
+    {
+      "Key": "BroadCastSearchFailed",
+      "Template": "broad cast device search"
+    },
+    {
+      "Key": "CanNotGetFaceConfig",
+      "Template": "can not get face config from device"
+    },
+    {
+      "Key": "CanNotScanFace",
+      "Template": "can not scan face"
+    },
+    {
+      "Key": "DeleteUserFromDeviceFailed",
+      "Template": "delete user from device failed"
+    },
+    {
+      "Key": "CanNotEnrollUser",
+      "Template": "enroll user failed"
+    },
+    {
+      "Key": "CanNotGetUserFromDevice",
+      "Template": "can not get user from device"
+    },
+    {
+      "Key": "UnHandleError",
+      "Template": "unknown error from server"
+    },
+    {
+      "Key": "NotSupportedByDevice",
+      "Template": ""
+    },
+    {
+      "Key": "CanNotRebootDevice",
+      "Template": "reboot davie not supported"
+    },
+    {
+      "Key": "CanNotLockDevice",
+      "Template": "lock device failed"
+    },
+    {
+      "Key": "CanNotUnlockDevice",
+      "Template": "unlock device failed"
+    },
+    {
+      "Key": "CanNotSendInfoToSystem",
+      "Template": "can not send info to system"
+    },
+    {
+      "Key": "CanNotSetIpAddress",
+      "Template": "can not set ip address"
+    },
+    {
+      "Key": "SetIpConfigFailed",
+      "Template": "set ip config  failed"
+    },
+    {
+      "Key": "InvalidIpAddress",
+      "Template": "invalid ip address"
+    },
+    {
+      "Key": "InvalidSubnetMask",
+      "Template": "invalid subnet mask "
+    },
+    {
+      "Key": "InvalidGateway",
+      "Template": "invalid gateway"
+    },
+    {
+      "Key": "InvalidServerIpAddress",
+      "Template": "invalid server ip address"
+    },
+    {
+      "Key": "CanNotGetDoorInfo",
+      "Template": "can not get door info"
+    },
+    {
+      "Key": "CannotSetDoorConfig",
+      "Template": "can not set door config"
+    },
+    {
+      "Key": "CannotDeleteDoor",
+      "Template": "delete door failed"
+    },
+    {
+      "Key": "CanNotRemoveAccessGroup",
+      "Template": "can not remove access group"
+    },
+    {
+      "Key": "CanNotSetAccessGroup",
+      "Template": "can not set access group"
+    },
+    {
+      "Key": "CanNotSetAccessLevel",
+      "Template": "can not set access level"
+    },
+    {
+      "Key": "CannotSetSchedule",
+      "Template": "can not set schedule "
+    },
+    {
+      "Key": "CanNotRemoveHolidayGroup",
+      "Template": "can not remove holiday group"
+    },
+    {
+      "Key": "CannotSetHolidayGroup",
+      "Template": "can not set holiday group"
+    },
+    {
+      "Key": "IpAllocatedInNetwork",
+      "Template": "ip already set in an other device"
+    },
+    {
+      "Key": "DeviceHasNotPing",
+      "Template": "device has not ping"
+    },
+    {
+      "Key": "TelnetPortIsClosed",
+      "Template": "telnet port is closed"
+    },
+    {
+      "Key": "PortBlockedOrUsedByaAnotherProgram",
+      "Template": "port blocked or used by an other program "
+    },
+    {
+      "Key": "ServerPortIsUser",
+      "Template": "server port in use"
+    },
+    {
+      "Key": "CannotFindReason",
+      "Template": "can not find any reason"
+    },
+    {
+      "Key": "DeviceSuccessfullyConnected",
+      "Template": "device successfully connect to device"
+    },
+    {
+      "Key": "RestartDeviceManually",
+      "Template": "restart device manually to fixed the problem"
+    },
+    {
+      "Key": "CanNotActiveImageLog",
+      "Template": "can not activate image log"
+    },
+    {
+      "Key": "CanNotGetAuthConfig",
+      "Template": "can not get auth config"
+    },
+    {
+      "Key": "ConnectionLost",
+      "Template": "connection lost"
+    },
+    {
+      "Key": "SetAuthConfigFailed",
+      "Template": "set auth config"
+    },
+    {
+      "Key": "AuthTimeOutIsRequired",
+      "Template": "auth time out is required"
+    },
+    {
+      "Key": "MathTimeOutIsRequired",
+      "Template": "match time out is required"
+    },
+    {
+      "Key": "AuthTimeOutGreaterThanTenSecond",
+      "Template": "auth time out must greater than 10 seconds"
+    },
+    {
+      "Key": "MatchTimeOutGreaterThanFiveSecond",
+      "Template": "match time out must greater than five seconds"
+    },
+    {
+      "Key": "AuthConfigIsRequired",
+      "Template": "auth config is required"
+    },
+    {
+      "Key": "NotValidAuthConfigType",
+      "Template": "not valid auth Config type"
+    },
+    {
+      "Key": "UpgradeFirmwareVersion",
+      "Template": "please upgrade firmware version for this feather"
+    },
+    {
+      "Key": "StartDataIsRequired",
+      "Template": "start data is required"
+    },
+    {
+      "Key": "EndDateIsRequired",
+      "Template": "end date is required"
+    },
+    {
+      "Key": "GroupNotFound",
+      "Template": "group not found"
+    },
+    {
+      "Key": "NameAlreadyExist",
+      "Template": "name already exist in the system"
+    },
+    {
+      "Key": "RetryNumberRequired",
+      "Template": "retry number is required"
+    },
+    {
+      "Key": "RetryNumberMustGreaterThanOne",
+      "Template": "retry number must greater than one"
+    },
+    {
+      "Key": "FingerPrintQualityRequired",
+      "Template": "finger print quality is required"
+    },
+    {
+      "Key": "FingerPrintQualityRang",
+      "Template": "finger print not in range"
+    },
+    {
+      "Key": "EntranceModeIsRequired",
+      "Template": "entrance mode is required"
+    }
+  ]
+}
+
